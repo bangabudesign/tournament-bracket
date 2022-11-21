@@ -12,11 +12,13 @@
                                     "winn" : 0,
                                     "teams" :[
                                         {
+                                            "id" : "1",
                                             "team_name" : "TEAM B",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=72:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1632335599999_Cloud9C9-03-FullonLight.png",
                                             "score" : 1
                                         },
                                         {
+                                            "id" : "2",
                                             "team_name" : "TEAM C",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1667815424271_600px-KRU_Esports_allmode.png",
                                             "score" : 0
@@ -26,11 +28,13 @@
                                     "winn" : 0,
                                     "teams" :[
                                         {
+                                            "id" : "3",
                                             "team_name" : "TEAM D",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1635528110402_G2Link.png",
                                             "score" : 1
                                         },
                                         {
+                                            "id" : "4",
                                             "team_name" : "TEAM E",
                                             "logo" : "",
                                             "score" : 0
@@ -44,11 +48,13 @@
                                     "winn" : 1,
                                     "teams" :[
                                         {
+                                            "id" : "5",
                                             "team_name" : "TEAM F",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1668071480942_Team_Liquid_Logo_Horizontal.png",
                                             "score" : 0
                                         },
                                         {
+                                            "id" : "6",
                                             "team_name" : "TEAM G",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1633015576759_Guild_Esports_allmode.png",
                                             "score" : 1
@@ -58,11 +64,13 @@
                                     "winn" : 1,
                                     "teams" :[
                                         {
+                                            "id" : "7",
                                             "team_name" : "TEAM H",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1667815441757_62bd90e55f45a.png",
                                             "score" : 0
                                         },
                                         {
+                                            "id" : "8",
                                             "team_name" : "TEAM I",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1667815449519_rebellion-logo-mark-green1.png",
                                             "score" : 1
@@ -82,11 +90,13 @@
                                     "winn" : 0,
                                     "teams" :[
                                         {
+                                            "id" : "1",
                                             "team_name" : "TEAM B",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=72:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1632335599999_Cloud9C9-03-FullonLight.png",
                                             "score" : 1
                                         },
                                         {
+                                            "id" : "3",
                                             "team_name" : "TEAM D",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1635528110402_G2Link.png",
                                             "score" : 0
@@ -96,11 +106,13 @@
                                     "winn" : 0,
                                     "teams" :[
                                         {
+                                            "id" : "8",
                                             "team_name" : "TEAM I",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1667815449519_rebellion-logo-mark-green1.png",
                                             "score" : 1
                                         },
                                         {
+                                            "id" : "6",
                                             "team_name" : "TEAM G",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1633015576759_Guild_Esports_allmode.png",
                                             "score" : 0
@@ -120,11 +132,13 @@
                                     "winn" : 1,
                                     "teams" :[
                                         {
+                                            "id" : "1",
                                             "team_name" : "TEAM B",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=72:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1632335599999_Cloud9C9-03-FullonLight.png",
                                             "score" : 1
                                         },
                                         {
+                                            "id" : "8",
                                             "team_name" : "TEAM I",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1667815449519_rebellion-logo-mark-green1.png",
                                             "score" : 2
@@ -144,6 +158,7 @@
                                     "winn" : null,
                                     "teams" :[
                                         {
+                                            "id" : "8",
                                             "team_name" : "TEAM I",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1667815449519_rebellion-logo-mark-green1.png",
                                             "score" : 0
@@ -172,11 +187,13 @@
                                     "winn" : 0,
                                     "teams" :[
                                         {
+                                            "id" : "2",
                                             "team_name" : "TEAM C",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1667815424271_600px-KRU_Esports_allmode.png",
                                             "score" : 2
                                         },
                                         {
+                                            "id" : "4",
                                             "team_name" : "TEAM E",
                                             "logo" : "",
                                             "score" : 0
@@ -186,11 +203,13 @@
                                     "winn" : 0,
                                     "teams" :[
                                         {
+                                            "id" : "5",
                                             "team_name" : "TEAM F",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1668071480942_Team_Liquid_Logo_Horizontal.png",
                                             "score" : 1
                                         },
                                         {
+                                            "id" : "7",
                                             "team_name" : "TEAM H",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1667815441757_62bd90e55f45a.png",
                                             "score" : 0
@@ -210,11 +229,13 @@
                                     "winn" : 0,
                                     "teams" :[
                                         {
+                                            "id" : "2",
                                             "team_name" : "TEAM C",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1667815424271_600px-KRU_Esports_allmode.png",
                                             "score" : 2
                                         },
                                         {
+                                            "id" : "5",
                                             "team_name" : "TEAM F",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1668071480942_Team_Liquid_Logo_Horizontal.png",
                                             "score" : 1
@@ -224,11 +245,13 @@
                                     "winn" : 0,
                                     "teams" :[
                                         {
+                                            "id" : "5",
                                             "team_name" : "TEAM F",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1668071480942_Team_Liquid_Logo_Horizontal.png",
                                             "score" : 1
                                         },
                                         {
+                                            "id" : "7",
                                             "team_name" : "TEAM H",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1667815441757_62bd90e55f45a.png",
                                             "score" : 0

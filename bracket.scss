@@ -5,6 +5,7 @@ $gray-400 : #3C3C3C;
 $gray-500 : #2D2D2D;
 $gray-600 : #252526;
 $gray-700 : #1E1E1E;
+$gray-800 : #0f0f0f;
 $accent : #D87833;
 
 *, *:before, *:after {
@@ -15,6 +16,9 @@ $accent : #D87833;
 	font: inherit;
 	vertical-align: baseline;
     box-sizing: border-box;
+}
+body {
+    background-color: $gray-600;
 }
 .bracket {
     font-family: 'Barlow', sans-serif;
@@ -124,6 +128,13 @@ $accent : #D87833;
             height: 100%;
             width: 4px;
             background-color: $gray-300;
+        }
+        &.active {
+            background-color: $gray-800;
+            color: $white;
+        }
+        &:hover {
+            cursor: pointer;
         }
     }
     .complete .teams {

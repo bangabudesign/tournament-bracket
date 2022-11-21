@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #252526;
+}
+
 .bracket {
   font-family: "Barlow", sans-serif;
   width: 100%;
@@ -115,6 +119,13 @@
   height: 100%;
   width: 4px;
   background-color: #B1B1B1;
+}
+.bracket .teams.active {
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+.bracket .teams:hover {
+  cursor: pointer;
 }
 .bracket .complete .teams {
   color: #B1B1B1;
