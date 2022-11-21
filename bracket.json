@@ -1,0 +1,228 @@
+{
+    "cells" : [
+        {
+            "cell_name": "Cell ke-1",
+            "qualifications": [
+                {
+                    "name" : "Uppper Bracket Ronde 1",
+                    "winners": [
+                        {
+                            "matches" : [
+                                {
+                                    "winn" : 0,
+                                    "teams" :[
+                                        {
+                                            "team_name" : "TEAM B",
+                                            "score" : 1
+                                        },
+                                        {
+                                            "team_name" : "TEAM C",
+                                            "score" : 0
+                                        }
+                                    ]
+                                },{
+                                    "winn" : 0,
+                                    "teams" :[
+                                        {
+                                            "team_name" : "TEAM D",
+                                            "score" : 1
+                                        },
+                                        {
+                                            "team_name" : "TEAM E",
+                                            "score" : 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        },{
+                            "matches" : [
+                                {
+                                    "winn" : 1,
+                                    "teams" :[
+                                        {
+                                            "team_name" : "TEAM F",
+                                            "score" : 0
+                                        },
+                                        {
+                                            "team_name" : "TEAM G",
+                                            "score" : 1
+                                        }
+                                    ]
+                                },{
+                                    "winn" : 1,
+                                    "teams" :[
+                                        {
+                                            "team_name" : "TEAM H",
+                                            "score" : 0
+                                        },
+                                        {
+                                            "team_name" : "TEAM I",
+                                            "score" : 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name" : "Uppper Bracket Ronde 2",
+                    "winners": [
+                        {
+                            "matches" : [
+                                {
+                                    "winn" : 0,
+                                    "teams" :[
+                                        {
+                                            "team_name" : "TEAM B",
+                                            "score" : 1
+                                        },
+                                        {
+                                            "team_name" : "TEAM D",
+                                            "score" : 0
+                                        }
+                                    ]
+                                },{
+                                    "winn" : 0,
+                                    "teams" :[
+                                        {
+                                            "team_name" : "TEAM I",
+                                            "score" : 1
+                                        },
+                                        {
+                                            "team_name" : "TEAM G",
+                                            "score" : 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name" : "Upper Bracket - Final",
+                    "winners": [
+                        {
+                            "matches" : [
+                                {
+                                    "winn" : 1,
+                                    "teams" :[
+                                        {
+                                            "team_name" : "TEAM B",
+                                            "score" : 1
+                                        },
+                                        {
+                                            "team_name" : "TEAM I",
+                                            "score" : 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name" : "Final",
+                    "winners": [
+                        {
+                            "matches" : [
+                                {
+                                    "winn" : null,
+                                    "teams" :[
+                                        {
+                                            "team_name" : "TEAM I",
+                                            "score" : 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cell_name": "Cell ke-2",
+            "qualifications": [
+                {
+                    "name" : "",
+                    "winners": []
+                },
+                {
+                    "name" : "Lower Bracket",
+                    "winners": [
+                        {
+                            "matches" : [
+                                {
+                                    "winn" : 0,
+                                    "teams" :[
+                                        {
+                                            "team_name" : "TEAM S",
+                                            "score" : 2
+                                        },
+                                        {
+                                            "team_name" : "TEAM J",
+                                            "score" : 0
+                                        }
+                                    ]
+                                },{
+                                    "winn" : 0,
+                                    "teams" :[
+                                        {
+                                            "team_name" : "TEAM K",
+                                            "score" : 1
+                                        },
+                                        {
+                                            "team_name" : "TEAM L",
+                                            "score" : 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name" : "Lower Bracket Ronde 2",
+                    "winners": [
+                        {
+                            "matches" : [
+                                {
+                                    "winn" : 0,
+                                    "teams" :[
+                                        {
+                                            "team_name" : "TEAM S",
+                                            "score" : 2
+                                        },
+                                        {
+                                            "team_name" : "TEAM K",
+                                            "score" : 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name" : "Lower Bracket Final",
+                    "winners": [
+                        {
+                            "matches" : [
+                                {
+                                    "winn" : null,
+                                    "teams" :[
+                                        {
+                                            "team_name" : "TEAM S",
+                                            "score" : 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

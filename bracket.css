@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+.bracket {
+  font-family: "Barlow", sans-serif;
+  width: 100%;
+  background-color: #0a0e13;
+}
+.bracket .b-cells {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(17, 1fr 32px) 1fr 32px;
+  position: relative;
+}
+.bracket .cells-title {
+  position: absolute;
+  top: 0;
+}
+.bracket .qualifications {
+  grid-column: span 6;
+  padding: 64px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1rem;
+  position: relative;
+  border-right: 1px dashed #273237;
+}
+.bracket .qual-title {
+  font-weight: 600;
+  color: #fff;
+  position: absolute;
+  top: 16px;
+}
+.bracket .winners {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1rem;
+  position: relative;
+}
+.bracket .winners.connector-1::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #8fa3b0;
+  width: 32px;
+  right: -32px;
+}
+.bracket .winners.connector-2::after {
+  content: "";
+  position: absolute;
+  height: calc(50% + 0.55rem);
+  border: 1px solid #8fa3b0;
+  border-left: 0;
+  width: 16px;
+  right: -16px;
+}
+.bracket .winners.connector-2::before {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #8fa3b0;
+  width: 16px;
+  top: 50%;
+  right: -32px;
+}
+.bracket .matches {
+  position: relative;
+}
+.bracket .matches.line {
+  border-bottom: 1px solid #273237;
+}
+.bracket .teams {
+  height: 2.5rem;
+  background-color: #000;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.bracket .teams .teams-logo, .bracket .teams .teams-score {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bracket .teams .teams-name {
+  flex-grow: 1;
+}
+.bracket .teams:nth-child(even) {
+  border-top: 1px solid #273237;
+}
+.bracket .teams::before {
+  content: "";
+  display: block;
+  flex-shrink: 0;
+  height: 100%;
+  width: 4px;
+  background-color: #8fa3b0;
+}
+.bracket .complete .teams {
+  color: #8fa3b0;
+}
+.bracket .complete .teams .teams-logo {
+  opacity: 0.3;
+}
+.bracket .complete .teams::before {
+  background-color: #273237;
+}
+.bracket .complete .teams.winn {
+  color: #ffffff;
+}
+.bracket .complete .teams.winn .teams-logo {
+  opacity: 1;
+}
+.bracket .complete .teams.winn::before {
+  background-color: #c79e57;
+}
+@media (max-width: 720px) {
+  .bracket {
+    width: 500vw;
+  }
+}
+@media (min-width: 721px) and (max-width: 1075px) {
+  .bracket {
+    width: 200vw;
+  }
+}/*# sourceMappingURL=bracket.css.map */
