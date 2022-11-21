@@ -17,9 +17,7 @@
                     <div class="winners" v-for="winner in qual.winners" :class="{ 'connector-2': winner.matches.length == 2, 'connector-1': winner.matches.length == 1 }">
                         <div class="matches" v-for="match in winner.matches" :class="{ 'line' : match.teams.length == 0, 'complete' : match.winn != null,  }">
                             <div class="teams" v-for="(team, i) in match.teams" :class="{ 'winn' : match.winn == i }">
-                                <div class="teams-logo">
-                                    <img height="18" width="18" src="https://assets.valorantesports.com/val/vct-logo.21d0c9ddeb.svg" alt="" srcset="">
-                                </div>
+                                <div class="teams-logo" :style="{ 'background-image': team.logo ? 'url('+team.logo+')' : 'url(https://assets.valorantesports.com/val/vct-logo.21d0c9ddeb.svg)' }"></div>
                                 <div class="teams-name">{{ team.team_name }}</div>
                                 <div class="teams-score">{{ team.score }}</div>
                             </div>

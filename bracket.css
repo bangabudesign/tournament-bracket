@@ -94,6 +94,11 @@
   align-items: center;
   text-align: center;
 }
+.bracket .teams .teams-logo {
+  background-size: 1.5rem;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .bracket .teams .teams-name {
   flex-grow: 1;
 }
