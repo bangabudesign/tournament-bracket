@@ -40,7 +40,7 @@ body {
 }
 .bracket .qual-title {
   font-weight: 500;
-  color: #B1B1B1;
+  color: #6a6a6a;
   position: absolute;
   top: 16px;
 }
@@ -55,15 +55,15 @@ body {
 .bracket .winners.connector-1::after {
   content: "";
   position: absolute;
-  border-bottom: 1px solid #B1B1B1;
-  width: 32px;
-  right: -32px;
+  border-bottom: 1px solid #6a6a6a;
+  width: 33px;
+  right: -33px;
 }
 .bracket .winners.connector-2::before {
   content: "";
   position: absolute;
   height: calc(50% + 0.55rem);
-  border: 1px solid #B1B1B1;
+  border: 1px solid #6a6a6a;
   border-left: 0;
   width: 16px;
   right: -16px;
@@ -71,7 +71,7 @@ body {
 .bracket .winners.connector-2::after {
   content: "";
   position: absolute;
-  border-bottom: 1px solid #B1B1B1;
+  border-bottom: 1px solid #6a6a6a;
   width: 16px;
   top: 50%;
   right: -32px;
@@ -83,7 +83,7 @@ body {
   position: relative;
 }
 .bracket .matches.line {
-  border-bottom: 1px solid #B1B1B1;
+  border-bottom: 1px solid #6a6a6a;
 }
 .bracket .teams {
   height: 2.5rem;
@@ -118,7 +118,7 @@ body {
   flex-shrink: 0;
   height: 100%;
   width: 4px;
-  background-color: #B1B1B1;
+  background-color: #6a6a6a;
 }
 .bracket .teams.active {
   background-color: #0f0f0f;
@@ -128,7 +128,7 @@ body {
   cursor: pointer;
 }
 .bracket .complete .teams {
-  color: #B1B1B1;
+  color: #6a6a6a;
 }
 .bracket .complete .teams .teams-logo {
   opacity: 0.3;
