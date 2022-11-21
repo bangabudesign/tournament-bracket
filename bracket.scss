@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$white : #ffffff;
+$gray-300 : #B1B1B1;
+$gray-400 : #3C3C3C;
+$gray-500 : #2D2D2D;
+$gray-600 : #252526;
+$gray-700 : #1E1E1E;
+$accent : #D87833;
+
 *, *:before, *:after {
     margin: 0;
 	padding: 0;
@@ -11,7 +19,7 @@
 .bracket {
     font-family: 'Barlow', sans-serif;
     width: 100%;
-    background-color: #0a0e13;
+    background-color: $gray-700;
     .b-cells {
         display: grid;
         grid-template-rows: 1fr;
@@ -30,11 +38,11 @@
         justify-content: space-around;
         gap: 1rem;
         position: relative;
-        border-right: 1px dashed #273237;
+        border-right: 1px dashed $gray-400;
     }
     .qual-title {
-        font-weight: 600;
-        color: #fff;
+        font-weight: 500;
+        color: $gray-300;
         position: absolute;
         top: 16px;
     }
@@ -50,40 +58,43 @@
         &::after {
             content: "";
             position: absolute;
-            border-bottom: 1px solid #8fa3b0;
+            border-bottom: 1px solid $gray-300;
             width: 32px;
             right: -32px;
         }
     }
     .winners.connector-2 {
-        &::after {
+        &::before {
             content: "";
             position: absolute;
             height: calc(50% + 0.55rem);
-            border: 1px solid #8fa3b0;
+            border: 1px solid $gray-300;
             border-left: 0;
             width: 16px;
             right: -16px;
         }
-        &::before {
+        &::after {
             content: "";
             position: absolute;
-            border-bottom: 1px solid #8fa3b0;
+            border-bottom: 1px solid $gray-300;
             width: 16px;
             top: 50%;
             right: -32px;
         }
     }
+    .qualifications:last-child .winners::after {
+        display: none;
+    }
     .matches{
         position: relative;
         &.line {
-            border-bottom: 1px solid #273237;
+            border-bottom: 1px solid $gray-300;
         }
     }
     .teams {
         height: 2.5rem;
-        background-color: #000;
-        color: #ffffff;
+        background-color: $gray-500;
+        color: $white;
         display: flex;
         align-items: center;
         font-size: 0.8rem;
@@ -104,7 +115,7 @@
             flex-grow: 1;
         }
         &:nth-child(even) {
-            border-top: 1px solid #273237;
+            border-top: 1px solid $gray-400;
         }
         &::before {
             content: "";
@@ -112,24 +123,27 @@
             flex-shrink: 0;
             height: 100%;
             width: 4px;
-            background-color: #8fa3b0;
+            background-color: $gray-300;
         }
     }
     .complete .teams {
-        color: #8fa3b0;
+        color: $gray-300;
         .teams-logo {
             opacity: 0.3;
         }
         &::before {
-            background-color: #273237;
+            background-color: $gray-400;
         }
         &.winn {
-            color: #ffffff;
+            color: $white;
             .teams-logo {
                 opacity: 1;
             }
+            .teams-score {
+                color: $accent;
+            }
             &::before {
-                background-color: #c79e57;
+                background-color: $accent;
             }
         }
     }

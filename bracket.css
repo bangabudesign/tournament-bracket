@@ -12,7 +12,7 @@
 .bracket {
   font-family: "Barlow", sans-serif;
   width: 100%;
-  background-color: #0a0e13;
+  background-color: #1E1E1E;
 }
 .bracket .b-cells {
   display: grid;
@@ -32,11 +32,11 @@
   justify-content: space-around;
   gap: 1rem;
   position: relative;
-  border-right: 1px dashed #273237;
+  border-right: 1px dashed #3C3C3C;
 }
 .bracket .qual-title {
-  font-weight: 600;
-  color: #fff;
+  font-weight: 500;
+  color: #B1B1B1;
   position: absolute;
   top: 16px;
 }
@@ -51,36 +51,39 @@
 .bracket .winners.connector-1::after {
   content: "";
   position: absolute;
-  border-bottom: 1px solid #8fa3b0;
+  border-bottom: 1px solid #B1B1B1;
   width: 32px;
   right: -32px;
-}
-.bracket .winners.connector-2::after {
-  content: "";
-  position: absolute;
-  height: calc(50% + 0.55rem);
-  border: 1px solid #8fa3b0;
-  border-left: 0;
-  width: 16px;
-  right: -16px;
 }
 .bracket .winners.connector-2::before {
   content: "";
   position: absolute;
-  border-bottom: 1px solid #8fa3b0;
+  height: calc(50% + 0.55rem);
+  border: 1px solid #B1B1B1;
+  border-left: 0;
+  width: 16px;
+  right: -16px;
+}
+.bracket .winners.connector-2::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #B1B1B1;
   width: 16px;
   top: 50%;
   right: -32px;
+}
+.bracket .qualifications:last-child .winners::after {
+  display: none;
 }
 .bracket .matches {
   position: relative;
 }
 .bracket .matches.line {
-  border-bottom: 1px solid #273237;
+  border-bottom: 1px solid #B1B1B1;
 }
 .bracket .teams {
   height: 2.5rem;
-  background-color: #000;
+  background-color: #2D2D2D;
   color: #ffffff;
   display: flex;
   align-items: center;
@@ -103,7 +106,7 @@
   flex-grow: 1;
 }
 .bracket .teams:nth-child(even) {
-  border-top: 1px solid #273237;
+  border-top: 1px solid #3C3C3C;
 }
 .bracket .teams::before {
   content: "";
@@ -111,16 +114,16 @@
   flex-shrink: 0;
   height: 100%;
   width: 4px;
-  background-color: #8fa3b0;
+  background-color: #B1B1B1;
 }
 .bracket .complete .teams {
-  color: #8fa3b0;
+  color: #B1B1B1;
 }
 .bracket .complete .teams .teams-logo {
   opacity: 0.3;
 }
 .bracket .complete .teams::before {
-  background-color: #273237;
+  background-color: #3C3C3C;
 }
 .bracket .complete .teams.winn {
   color: #ffffff;
@@ -128,8 +131,11 @@
 .bracket .complete .teams.winn .teams-logo {
   opacity: 1;
 }
+.bracket .complete .teams.winn .teams-score {
+  color: #D87833;
+}
 .bracket .complete .teams.winn::before {
-  background-color: #c79e57;
+  background-color: #D87833;
 }
 @media (max-width: 720px) {
   .bracket {
