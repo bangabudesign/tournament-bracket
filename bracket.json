@@ -150,6 +150,32 @@
                     ]
                 },
                 {
+                    "name" : "",
+                    "winners": [
+                        {
+                            "matches" : [
+                                {
+                                    "winn" : null,
+                                    "teams" :[]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name" : "",
+                    "winners": [
+                        {
+                            "matches" : [
+                                {
+                                    "winn" : null,
+                                    "teams" :[]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "name" : "Final",
                     "winners": [
                         {
@@ -162,6 +188,12 @@
                                             "team_name" : "TEAM I",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1667815449519_rebellion-logo-mark-green1.png",
                                             "score" : 0
+                                        },
+                                        {
+                                            "id" : "5",
+                                            "team_name" : "TEAM F",
+                                            "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1668071480942_Team_Liquid_Logo_Horizontal.png",
+                                            "score" : 1
                                         }
                                     ]
                                 }
@@ -263,13 +295,45 @@
                     ]
                 },
                 {
-                    "name" : "Lower Bracket Final",
+                    "name" : "Lower Bracket - Semifinal",
                     "winners": [
                         {
                             "matches" : [
                                 {
-                                    "winn" : null,
+                                    "winn" : 1,
                                     "teams" :[
+                                        {
+                                            "id" : "2",
+                                            "team_name" : "TEAM C",
+                                            "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1667815424271_600px-KRU_Esports_allmode.png",
+                                            "score" : 2
+                                        },
+                                        {
+                                            "id" : "5",
+                                            "team_name" : "TEAM F",
+                                            "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1668071480942_Team_Liquid_Logo_Horizontal.png",
+                                            "score" : 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name" : "Lower Bracket - Final",
+                    "winners": [
+                        {
+                            "matches" : [
+                                {
+                                    "winn" : 0,
+                                    "teams" :[
+                                        {
+                                            "id" : "5",
+                                            "team_name" : "TEAM F",
+                                            "logo" : "https://am-a.akamaihd.net/image?resize=36:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1668071480942_Team_Liquid_Logo_Horizontal.png",
+                                            "score" : 1
+                                        },
                                         {
                                             "team_name" : "TEAM S",
                                             "logo" : "https://am-a.akamaihd.net/image?resize=72:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1632335599999_Cloud9C9-03-FullonLight.png",
